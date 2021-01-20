@@ -123,7 +123,6 @@ if ($page["seo_type"] == "profile") {
                     }
                 },
                 "name": "<?php echo $user["company"]; ?>",
-                "logo": "https://<?php echo $w["website_url"].$user["image_main_file"]; ?>",
                 "image": "https://<?php echo $w["website_url"].$user["image_main_file"]; ?>",
                 <?php
             if ($reviewsCount > 0) { ?>
