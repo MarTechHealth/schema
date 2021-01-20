@@ -1,0 +1,63 @@
+module.exports = {
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "eslint-plugin-html"
+    ],
+    "rules": {
+        "for-direction" : ["error"],
+        "no-console" : ["error"],
+        "no-dupe-args" : ["error"],
+        "no-duplicate-case" : ["error"],
+        "no-empty" : ["error"],
+        "no-ex-assign" : ["error"],
+        "no-extra-boolean-cast" : ["error"],
+        "no-extra-parens" : ["error"],
+        "no-extra-semi" : ["error"],
+        "no-func-assign" : ["error"],
+        "no-irregular-whitespace" : ["error"],
+        "no-unexpected-multiline" : ["error"],
+        "no-irregular-whitespace" : ["error"],
+        "no-unreachable" : ["error"],
+        "dot-notation" : ["error"],
+        "no-empty-function" : ["error"],
+        "no-empty-pattern" : ["error"],
+        "no-invalid-this" : ["error"],
+        "no-multi-spaces" : ["error"],
+        "no-redeclare" : ["error"],
+        "no-unused-vars": ["error", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
+        "array-bracket-spacing" : ["error", "always"],
+        "block-spacing" : ["error"],
+        "brace-style" : ["error", "1tbs"],
+        "camelcase" : ["error"],
+        "capitalized-comments" : ["error", "always"],
+        "comma-dangle" : ["error", "never"],
+        "comma-spacing" : ["error", { "before": false, "after": true }],
+        "comma-style" : ["error", "last"],
+        "computed-property-spacing" : ["error", "always"],
+        "func-call-spacing" : ["error", "always"],
+        "implicit-arrow-linebreak" : ["error", "beside"],
+        "indent" : ["error", 4],
+        "keyword-spacing" : ["error", { "before": true, "after": true}],
+        "key-spacing" : ["error", {"beforeColon": true, "afterColon": true}],
+        "lines-around-comment" : ["error", { "beforeLineComment": true }],
+        "multiline-comment-style" : ["error", "starred-block"],
+        "newline-per-chained-call" : ["error", { "ignoreChainWithDepth": 2 }],
+        "no-tabs" : ["error"],
+        "no-trailing-spaces" : ["error", { "skipBlankLines": true }],
+        "no-whitespace-before-property" : ["error"],
+        "object-curly-spacing" : ["error", "always"],
+        "quotes" : ["error", "backtick"],
+        "semi-style" : ["error", "last"],
+        "space-in-parens" : ["error", "always"],
+        "sort-vars" : ["error"],
+        "no-var" : ["error"]
+    }
+}
