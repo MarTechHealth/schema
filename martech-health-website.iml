@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="googlePlacesSearch" level="application" />
+    <orderEntry type="library" name="ace" level="application" />
+    <orderEntry type="library" name="alert" level="application" />
+    <orderEntry type="library" name="api" level="application" />
+    <orderEntry type="library" name="auth" level="application" />
+    <orderEntry type="library" name="autosuggest" level="application" />
+    <orderEntry type="library" name="bdApi" level="application" />
+    <orderEntry type="library" name="datePicker" level="application" />
+    <orderEntry type="library" name="dialog" level="application" />
+    <orderEntry type="library" name="dom" level="application" />
+    <orderEntry type="library" name="dynamicTable" level="application" />
+    <orderEntry type="library" name="form" level="application" />
+    <orderEntry type="library" name="functional" level="application" />
+    <orderEntry type="library" name="layoutElement" level="application" />
+    <orderEntry type="library" name="popUp" level="application" />
+    <orderEntry type="library" name="router" level="application" />
+    <orderEntry type="library" name="time" level="application" />
+    <orderEntry type="library" name="toast" level="application" />
+  </component>
+</module>
