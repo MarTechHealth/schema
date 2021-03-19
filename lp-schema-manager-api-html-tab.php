@@ -259,7 +259,7 @@ if ($_POST["module_action"] != "") {
                 if ($reviewsCount == 0) {
                     $ratingValue = 0;
                 } else {
-                    $ratingValue = $reviewScoreSum / $reviewsCount;
+                    $ratingValue = round(($reviewScoreSum / $reviewsCount),1);
                 }
                 $reviewsFormatted = array();
 
