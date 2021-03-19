@@ -313,7 +313,7 @@ if ($_POST["module_action"] != "") {
                                 if ($reviewsCount > 0) { ?>
                                 "aggregateRating": {
                                     "@type": "AggregateRating",
-                                    "ratingValue": "<?php echo (int) $ratingValue; ?>",
+                                    "ratingValue": "<?php echo $ratingValue; ?>",
                                     "reviewCount": "<?php echo $reviewsCount; ?>"
                                 },
                                 <?php
